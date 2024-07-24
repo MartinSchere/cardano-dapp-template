@@ -25,8 +25,6 @@ export const ConnectWalletMenu = () => {
     connect,
   } = useCardanoWallet();
 
-  console.log(detectedWallets);
-
   if (isConnected && connectedWallet) {
     return (
       <DropdownMenu>
