@@ -1,0 +1,29 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "generate": "npx @blaze-cardano/blueprint ../plutus.json -o src/utils/plutus.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@blaze-cardano/blueprint": "^0.2.6",
+    "@types/jest": "^29.5.12",
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@blaze-cardano/core": "^0.2.7",
+    "@blaze-cardano/emulator": "^0.1.37",
+    "@blaze-cardano/sdk": "^0.0.44",
+    "@blaze-cardano/tsconfig": "^0.0.1",
+    "ed25519": "link:@noble/curves/ed25519"
+  }
+}

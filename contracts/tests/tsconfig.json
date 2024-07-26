@@ -1,0 +1,14 @@
+{
+  "extends": "@blaze-cardano/tsconfig/base.json",
+  "include": ["."],
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "types": ["jest"],
+    "resolveJsonModule": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "allowJs": true,
+    "esModuleInterop": true
+  },
+  "exclude": ["dist", "build", "node_modules"]
+}

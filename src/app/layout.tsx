@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Space_Mono } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/header";
+import { cn } from "@/lib/utils";
 
 const spaceMono = Space_Mono({ subsets: ["latin"], weight: ["400", "700"] });
 
@@ -17,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={spaceMono.className}>
+      <body className={cn(spaceMono.className, "dark")}>
         <Header />
         {children}
       </body>
