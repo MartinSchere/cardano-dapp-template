@@ -24,3 +24,9 @@ import { getBlaze } from "@/lib/blaze";
 
 await getBlaze(wallet);
 ```
+
+## Generating blueprint types
+
+1. cd into the `contracts` folder
+2. Build the project with `aiken build`
+3. Generate types with `npx @blaze-cardano/blueprint ./plutus.json -o src/utils/plutus.ts`
