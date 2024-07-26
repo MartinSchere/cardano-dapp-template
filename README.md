@@ -6,7 +6,7 @@ A template to bootstrap Cardano projects using Nextjs (app router), Blaze, Shadc
 
 1. Go to [Maestro](https://dashboard.gomaestro.org/) and get an API key
 2. Create a `.env.development.local` file
-3. Set the environment variable `MAESTRO_API_KEY`
+3. Set the environment variable `NEXT_PUBLIC_MAESTRO_API_KEY`
 4. Set the environment variable `NEXT_PUBLIC_NETWORK` to one of:
 
 - mainnet
